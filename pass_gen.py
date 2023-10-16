@@ -12,7 +12,7 @@ def generate_random_password():
 	for i in range(length):
 		password.append(random.choice(characters))
 		random.shuffle(password)
-		print("".join(password))
+	print("".join(password))
 
 generate_random_password()
 
